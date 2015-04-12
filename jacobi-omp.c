@@ -1,5 +1,5 @@
 /*
- * The Jacobi method
+ * The OpenMP version of Jacobi method
  */
 #include <string.h>
 #include <omp.h>
