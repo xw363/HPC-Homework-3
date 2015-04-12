@@ -2,6 +2,7 @@
  * The OpenMP version of Gauss-Seidel method
  */
 #include "laplace.h"
+#include <sys/time.h>
 #include <omp.h>
 
 int main(int argc, char** argv)
@@ -15,6 +16,14 @@ int main(int argc, char** argv)
 
     int i, j, k = 0;
     double aui;  /* Placeholder for sum of a_ij * u_j */
+
+    struct timeval start, finish;  /* Times that the the Jacobi iterations
+                                      start and finish */
+    double total_time;  /* Total running time */
+
+    /* Mark start time */
+    gettimeofday(&start, NULL);
+
     while (res > res_min && k < MAX_ITERATION) {
 #pragma omp parallel private (i, aui)
         {
@@ -55,10 +64,17 @@ int main(int argc, char** argv)
         k++;
     }
 
+    /* Mark finish time */
+    gettimeofday(&finish, NULL);
+
     if (res > res_min)
         printf("Initial residual decreased by: %.8f\n",
                 res / (res_min / RESIDUAL_FACTOR));
     printf("Number of iterations: %d\n", k);
+
+    total_time = finish.tv_sec - start.tv_sec
+                 + (finish.tv_usec - start.tv_usec) / 1e6;
+    printf("Jacobi solver running time: %.8f seconds\n", total_time);
 
     free(u);
 

@@ -1,5 +1,5 @@
 /*
- * Functions and parameters for jacobi.c and gauss_seidel.c
+ * Functions and parameters for jacobi-omp.c and gs-omp.c
  */
 #include <stdio.h>
 #include <stdlib.h>
