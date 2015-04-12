@@ -1,0 +1,59 @@
+Running 16 threads
+Jacobi solver running time: 3.36445500 seconds
+Jacobi solver running time: 3.11971000 seconds
+Jacobi solver running time: 3.15492300 seconds
+Jacobi solver running time: 3.55177500 seconds
+Jacobi solver running time: 3.11697600 seconds
+Jacobi solver running time: 3.32974200 seconds
+Jacobi solver running time: 3.15423500 seconds
+Jacobi solver running time: 3.26756100 seconds
+Jacobi solver running time: 3.18434400 seconds
+Jacobi solver running time: 3.14046000 seconds
+
+Running 32 threads
+Jacobi solver running time: 2.82940400 seconds
+Jacobi solver running time: 2.85436700 seconds
+Jacobi solver running time: 2.89816800 seconds
+Jacobi solver running time: 2.92913500 seconds
+Jacobi solver running time: 3.03804700 seconds
+Jacobi solver running time: 2.89839300 seconds
+Jacobi solver running time: 2.96106900 seconds
+Jacobi solver running time: 3.15447700 seconds
+Jacobi solver running time: 3.06864600 seconds
+Jacobi solver running time: 2.94264000 seconds
+
+Running 64 threads
+Jacobi solver running time: 5.97356000 seconds
+Jacobi solver running time: 6.45427600 seconds
+Jacobi solver running time: 5.89568200 seconds
+Jacobi solver running time: 5.81973600 seconds
+Jacobi solver running time: 6.21750200 seconds
+Jacobi solver running time: 6.31456500 seconds
+Jacobi solver running time: 6.04164400 seconds
+Jacobi solver running time: 6.56070300 seconds
+Jacobi solver running time: 6.45499900 seconds
+Jacobi solver running time: 5.83970500 seconds
+
+Running 128 threads
+Jacobi solver running time: 15.78769000 seconds
+Jacobi solver running time: 16.03289900 seconds
+Jacobi solver running time: 13.19168300 seconds
+Jacobi solver running time: 13.60998300 seconds
+Jacobi solver running time: 13.53188700 seconds
+Jacobi solver running time: 12.84902900 seconds
+Jacobi solver running time: 12.96857800 seconds
+Jacobi solver running time: 15.12399800 seconds
+Jacobi solver running time: 13.12895300 seconds
+Jacobi solver running time: 14.72535000 seconds
+
+Running 256 threads
+Jacobi solver running time: 32.98055100 seconds
+Jacobi solver running time: 34.42314300 seconds
+Jacobi solver running time: 35.15118100 seconds
+Jacobi solver running time: 34.59700600 seconds
+Jacobi solver running time: 36.06684800 seconds
+Jacobi solver running time: 30.23281000 seconds
+Jacobi solver running time: 32.20707200 seconds
+Jacobi solver running time: 36.85473900 seconds
+Jacobi solver running time: 38.04767700 seconds
+Jacobi solver running time: 35.94467900 seconds

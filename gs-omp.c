@@ -74,7 +74,7 @@ int main(int argc, char** argv)
 
     total_time = finish.tv_sec - start.tv_sec
                  + (finish.tv_usec - start.tv_usec) / 1e6;
-    printf("Jacobi solver running time: %.8f seconds\n", total_time);
+    printf("Gauss-Seidel solver running time: %.8f seconds\n", total_time);
 
     free(u);
 

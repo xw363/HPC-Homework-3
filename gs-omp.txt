@@ -1,0 +1,59 @@
+Running 16 threads
+Gauss-Seidel solver running time: 7.55271100 seconds
+Gauss-Seidel solver running time: 7.26769900 seconds
+Gauss-Seidel solver running time: 7.82118100 seconds
+Gauss-Seidel solver running time: 7.28659100 seconds
+Gauss-Seidel solver running time: 7.68077700 seconds
+Gauss-Seidel solver running time: 7.42750500 seconds
+Gauss-Seidel solver running time: 7.80765900 seconds
+Gauss-Seidel solver running time: 7.14377300 seconds
+Gauss-Seidel solver running time: 7.19405200 seconds
+Gauss-Seidel solver running time: 6.56184300 seconds
+
+Running 32 threads
+Gauss-Seidel solver running time: 6.94468500 seconds
+Gauss-Seidel solver running time: 7.05198700 seconds
+Gauss-Seidel solver running time: 7.13189300 seconds
+Gauss-Seidel solver running time: 7.25522100 seconds
+Gauss-Seidel solver running time: 6.42303300 seconds
+Gauss-Seidel solver running time: 6.89917800 seconds
+Gauss-Seidel solver running time: 6.84986300 seconds
+Gauss-Seidel solver running time: 7.36322800 seconds
+Gauss-Seidel solver running time: 7.19389500 seconds
+Gauss-Seidel solver running time: 7.08568400 seconds
+
+Running 64 threads
+Gauss-Seidel solver running time: 19.06869600 seconds
+Gauss-Seidel solver running time: 17.30388500 seconds
+Gauss-Seidel solver running time: 16.31530400 seconds
+Gauss-Seidel solver running time: 19.07450700 seconds
+Gauss-Seidel solver running time: 18.70138900 seconds
+Gauss-Seidel solver running time: 17.08587500 seconds
+Gauss-Seidel solver running time: 17.31622500 seconds
+Gauss-Seidel solver running time: 16.83482500 seconds
+Gauss-Seidel solver running time: 16.47525600 seconds
+Gauss-Seidel solver running time: 16.96620400 seconds
+
+Running 128 threads
+Gauss-Seidel solver running time: 37.72783400 seconds
+Gauss-Seidel solver running time: 43.92643400 seconds
+Gauss-Seidel solver running time: 37.24556300 seconds
+Gauss-Seidel solver running time: 42.97442900 seconds
+Gauss-Seidel solver running time: 42.51655400 seconds
+Gauss-Seidel solver running time: 42.40999200 seconds
+Gauss-Seidel solver running time: 41.39372200 seconds
+Gauss-Seidel solver running time: 43.05257900 seconds
+Gauss-Seidel solver running time: 42.83945700 seconds
+Gauss-Seidel solver running time: 38.63232200 seconds
+
+Running 256 threads
+Gauss-Seidel solver running time: 100.86974600 seconds
+Gauss-Seidel solver running time: 95.36337800 seconds
+Gauss-Seidel solver running time: 98.44349200 seconds
+Gauss-Seidel solver running time: 98.43736400 seconds
+Gauss-Seidel solver running time: 97.75553800 seconds
+Gauss-Seidel solver running time: 103.29476800 seconds
+Gauss-Seidel solver running time: 95.98036700 seconds
+Gauss-Seidel solver running time: 103.10900600 seconds
+Gauss-Seidel solver running time: 104.02668400 seconds
+Gauss-Seidel solver running time: 98.21866000 seconds
